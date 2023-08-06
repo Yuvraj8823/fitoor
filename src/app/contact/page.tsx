@@ -1,12 +1,11 @@
-import Navbar from "@/app/components/Navbar";
-import Footer from "@/app/components/Footer";
+
 import Link from 'next/link'
 type Props = {}
 
 const page = (props: Props) => {
   return (
       <div>
-    <Navbar />
+
       <div className="m-8 font-sans  text-[10px] flex justify-center">
         <Link href={'/'} className="hover:underline">HOME</Link>&nbsp;/ CONTACT US
       </div>
@@ -21,7 +20,7 @@ const page = (props: Props) => {
         <div className={`flex font-bold`}>Working Hours</div>
         <div className={`flex`}>Mon-Sat (11 am to 8 pm)</div>
       </div>
-    <Footer />
+
       </div>
   )
 }
