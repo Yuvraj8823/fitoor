@@ -3,7 +3,7 @@ import Link from 'next/link';
 function Footer() {
     return (
         <>
-            <footer className="bg-[#f6f6f6]">
+            <footer className="">
                 <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
                     <div className="lg:flex lg:items-start lg:gap-8">
 
@@ -35,7 +35,7 @@ function Footer() {
                                             type="email"
                                             id="UserEmail"
                                             placeholder="john@rhcp.com"
-                                            className="w-full bg-[#f6f6f6] border-none focus:border-transparent focus:ring-transparent sm:text-sm"
+                                            className="w-full  border-none focus:border-transparent focus:ring-transparent sm:text-sm"
                                         />
 
                                         <button

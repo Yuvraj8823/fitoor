@@ -73,11 +73,11 @@ export default function Navbar({}: Props) {
      ]
   return (
       <>
-    <div className="sticky top-0 flex justify-between border-b-2 my-0 mx-[4rem] ">
+    <div className="sticky top-0 flex justify-between border-b-2 my-0 px-[4rem] bg-white z-50   ">
         <MenuIcon className="flex self-center lg:hidden  " onClick={()=>setHamburger(!hamburger)}/>
         <ul className="lg:flex items-center text-sm font-cardo hidden">
 
-            <button className="mx-3 group h-[100%] transition-transform duration-150 ease-in-out ">
+            <button className="mx-3 group  transition-transform duration-150 ease-in-out cursor-pointer link-underline link-underline-black">
             <Link href="#">
                 <li className="asas">
                     Shop
@@ -87,7 +87,7 @@ export default function Navbar({}: Props) {
             </Link>
             </button>
             
-            <button className=" mx-3 group h-[100%]">
+            <button className=" mx-3 group/jewel  cursor-pointer link-underline link-underline-black">
             <Link href="#">
                 <li className="">
                     Personlized Jewellery
@@ -96,9 +96,9 @@ export default function Navbar({}: Props) {
                 
             </Link>
             </button>
-            <li className="mx-3 my-3">Gifts</li>
-            <li className="mx-3 my-3">Collection</li>
-            <li className="mx-3 my-3">Featured</li>
+            <li className="mx-3 my-3 cursor-pointer link-underline link-underline-black">Gifts</li>
+            <li className="mx-3 my-3 cursor-pointer link-underline link-underline-black">Collection</li>
+            <li className="mx-3 my-3 cursor-pointer link-underline link-underline-black">Featured</li>
         </ul>
         <div className="flex items-center justify-around logo font-pinyon text-2xl font-medium mx-3 my-5">
 
@@ -107,8 +107,8 @@ export default function Navbar({}: Props) {
         </h1>
         </div>
         <ul className="flex items-center text-sm font-cardo mx-3 my-3">
-            <li className="mx-3 my-3">Track Order</li>
-            <li className="mx-3 my-3 hidden lg:flex">Contact Us</li>
+            <li className="mx-3 my-3 cursor-pointer link-underline link-underline-black">Track Order</li>
+            <li className="mx-3 my-3 hidden lg:flex cursor-pointer link-underline link-underline-black">Contact Us</li>
             
 
             <SearchIcon className="mx-3 hidden lg:flex"/>
